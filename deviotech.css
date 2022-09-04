@@ -1,0 +1,151 @@
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+
+        }
+        /*--------- This css is for Navbar-------- */
+        nav{
+            display: flex;
+            align-items: center;
+        }
+        .Navbar_Container{
+            height: 70px;
+            width: 84%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fc3;
+        }
+        .logo img{
+            height: 35px;
+            margin-left: 32px;
+            
+        }
+        .menu_Bar a{
+            font-size: 15px;
+            color: black;
+            font-weight: 700;
+            margin-right: 27px;
+            text-decoration: none;
+        }
+        .icon img{
+            margin-left: 20px;
+            height: 24px;
+        }
+        .content {
+            margin-left: 20px;
+            
+        }
+        .upper{
+            font-size: 14px;
+        }
+        .lower{
+            font-weight: 700;
+        }
+        /* ------- This css is for background_image */
+        
+        .background_image img{
+            height: 200px;
+            width: 100%;
+            position: relative;
+        }
+        .background_content{
+            display: flex;
+            align-items: center;
+            color: white;
+            position: absolute;
+            top: 137px;
+            left: 144px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .background_content img{
+            margin: 0px 10px;
+        }
+        /* ------This css is for Meet The Team Section */
+
+        .bursh_image img{
+            margin-left: 31rem;
+            margin-top: 70px;
+            height: 63px;
+            position: relative;
+        }
+        .main_heading{
+            text-align: center;
+            font-size: 33px;
+            position: absolute;
+            top: 30;
+            left: 552px;
+            top: 353px;
+        }
+        .best{
+            text-align: center;
+            font-size: 13px;
+        }
+       
+        /* -------------------- */
+        .flex{
+            display: flex;
+            justify-content: space-around;
+        }
+       .main_star{
+           height: 450px;
+           width: 600px;
+           margin-top: 30px;
+       }
+       .star img{
+        height: 230px;
+        width: 250px;
+        margin: auto;
+        display: block;
+       }
+       .upper_heading{
+           text-align: center;
+           font-size: 18px;
+           font-weight: 700;
+           margin: 5px 0px;
+       }
+       .bottom_heading{
+           text-align: center;
+           margin-bottom: 10px;
+           font-size: 13px;
+       }
+       .social_icons{
+           display: flex;
+           margin-left: 180px;
+           margin-bottom: 10px;
+
+       }
+       .social_icons img{
+           height: 30px;
+           width: 30px;
+         margin-left: 20px;
+          
+       }
+       .para{
+           text-align: center;
+           font-size: 13px;
+           font-weight: bold;
+       }
+       /* ------------------------------------------------------------------------ */
+       .container{
+           height: 400px;
+           width: 100%;
+           background-color: #fc3;
+       }
+       .white img{
+        display: block;
+        margin: 40px auto;
+        position: absolute;
+        top: 150%;
+        left: 35%;
+       }
+       .tut_heading{
+        position: absolute;
+        top: 160%;
+        left: 39%;
+        font-size: 30px;
+        font-weight: 700;
+       }

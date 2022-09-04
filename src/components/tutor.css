@@ -1,0 +1,104 @@
+.background_color{
+    
+    width: 100%;
+    background-color:  #fc3;
+    position: relative;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.white_background {
+    width: 315px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./pics/white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+
+
+.upper_bottom_content{
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    
+
+}
+.upper_bottom_content span{
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 35px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    grid-gap: 3rem;
+    gap: 3rem;
+
+}
+@media(max-width:990px){
+    .cards{
+        flex-direction:column;
+    }
+}
+
+.tutor-cards{
+    background-color: #fff;
+    height: 230px;
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 7px;
+    box-shadow: 0 0 11px 1px rgb(0 0 0 / 38%);
+}
+.mini_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.dot{
+    height: 12px;
+    width: 12px;
+    border-radius: 99px;
+    background-color: #fc3;
+
+}
+.img img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 50px;
+    height: 55px;
+
+}
+.data{
+    text-align: center;
+    font-weight: 800;
+}
+.bottom_border{
+    height: 3px;
+    width: 45px;
+    background-color: #fc3;
+    margin: 1rem auto;
+}
+.bottom_data{
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+

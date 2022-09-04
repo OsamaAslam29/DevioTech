@@ -1,0 +1,21 @@
+
+.container{
+    position: relative;
+    height: 250px;
+    width: 100%;
+    background-position-y: bottom;
+    background-image: url(./pics/home.png);
+}
+.home_content{
+    
+    display: flex;
+    position: absolute;
+    top: 75px;
+    left: 11.5%;
+    gap: 0.6rem;
+}
+.heading{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
